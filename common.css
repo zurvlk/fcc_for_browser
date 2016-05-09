@@ -1,0 +1,28 @@
+ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li.msg {
+    margin-bottom: 40px;
+}
+
+label {
+    margin-right: 10px;
+    width:100px;
+    float: left;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+
+input#button {
+    display: block;
+    margin: 0 auto;
+    background: #f098ee;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
