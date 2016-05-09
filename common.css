@@ -18,11 +18,16 @@ ul {
 }
 
 
-input#button {
+input[type = "submit"] {
     display: block;
     margin: 0 auto;
-    background: #f098ee;
-    color: #fff;
+    background: #c6ffff;
+    color: #333;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px 40px;
+}
+
+input{
+  display: block;
+  margin: 0 auto;
 }
