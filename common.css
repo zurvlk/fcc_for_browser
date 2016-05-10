@@ -1,11 +1,17 @@
-ul li {
-  list-style: none;
-  margin-top: 10px;
+#contents{
+  position:relative;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Coda';
 }
 
+#contents a:link {
+  color:#FFF;
+}
 
-ul {
-  margin: 0 auto;
+#contents a {
+  color:#FFF;
+  text-decoration:none;
 }
 
 
@@ -24,6 +30,7 @@ input[type = "submit"] {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
+  margin-bottom: 80px;
 }
 
 input[type = "submit"]:hober{
@@ -50,9 +57,61 @@ textarea{
   border-radius: 0;
   background-color: rgba(255, 255, 255, 0.05);
   color: #fff;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 body{
   margin-top: 50px;
   background-color: #333;
+}
+
+#link {
+  position: fixed;
+  font-size:    85%;
+  text-align:    left;
+  right: 10%;
+  bottom: 40px;
+  font-family: 'Coda';
+}
+
+#link a:link {
+  color:#FFF;
+}
+
+#link a {
+  color:#FFF;
+  text-decoration:none;
+}
+
+#link a:hover{
+  color:#FF6535;
+}
+
+/* ========FOOTER CUSTOMIZE======== */
+
+#footer {
+  position:fixed;
+  right:0;
+  bottom:0;
+  height:20px;
+  padding:0 20px;
+  background:#222;
+  font-family: 'Coda';
+}
+
+.copyright {
+  position:    relative;
+  padding-top:    3px;
+  font-size:    70%;
+  text-align:    center;
+}
+
+#footer a:link {
+  color:#FFF;
+}
+
+#footer a {
+  color:#FFF;
+  text-decoration:none;
 }
